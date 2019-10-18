@@ -169,8 +169,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Class1.cs" />
-    <Compile Include="Class2.cs" />
+    <Compile Include="NUnitCore.cs" />
+    <Compile Include="SetSellenium.cs" />
     <Compile Include="CollectionDriver.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="GetSelenium.cs" />

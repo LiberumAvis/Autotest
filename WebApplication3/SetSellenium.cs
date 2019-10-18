@@ -6,7 +6,7 @@ using System.Web;
 using OpenQA.Selenium.Support.UI;
 namespace WebApplication3
 {
-    public class Class2
+    public class SetSellenium
     {
 
        public static void EnterText(string element, string value, PropetryType valuetype)

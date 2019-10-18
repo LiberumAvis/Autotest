@@ -1,0 +1,120 @@
+﻿2019-10-13T19:43:18.2117450+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-13T19:43:18.2117450+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-13T19:43:18.2117450+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Julia\source\repos\WebApplication3\packages\SpecRun.Runner.3.0.391\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-13T19:43:18.2577740+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Julia\source\repos\WebApplication3\WebApplication3.Tests\bin\Debug\WebApplication3.Tests.dll
+2019-10-13T19:43:18.2587709+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\Julia\source\repos\WebApplication3\TestResults" (default)
+2019-10-13T19:43:18.2587709+03:00;VSTestExecutionThread;Info;Profile: 
+2019-10-13T19:43:18.2877485+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\Julia\source\repos\WebApplication3\TestResults\Unnamed project__2019-10-13T194318.log
+2019-10-13T19:43:18.3026552+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-10-13T19:43:18.3116678+03:00;Thread#13;Info;Checking license
+2019-10-13T19:43:18.3325749+03:00;Thread#13;Info;Evaluation mode: test execution starts in 10 seconds... (this delay is removed in the registered version)
+2019-10-13T19:43:28.3333623+03:00;Thread#13;Info;Evaluation delay finished.
+2019-10-13T19:43:28.3402865+03:00;Thread#13;Info;License check completed
+2019-10-13T19:43:28.3412831+03:00;Thread#13;Info;starting test run
+2019-10-13T19:43:28.3572414+03:00;Thread#13;Info;Discovering target: Default
+2019-10-13T19:43:28.3572414+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\Julia\source\repos\WebApplication3\WebApplication3.Tests\bin\Debug\WebApplication3.Tests.dll
+2019-10-13T19:43:28.8530327+03:00:Appdomain Disposed
+2019-10-13T19:43:28.8530327+03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\Julia\source\repos\WebApplication3\WebApplication3.Tests\bin\Debug\WebApplication3.Tests.dll
+2019-10-13T19:43:28.8539142+03:00:Test Suite Dump
+2019-10-13T19:43:28.8569463+03:00:#0: Unnamed project/ - 
+2019-10-13T19:43:28.8569463+03:00:#1: Default - 
+2019-10-13T19:43:28.8569463+03:00:#2: WebApplication3.Tests - 
+2019-10-13T19:43:28.8569463+03:00:#3: SpecFlowFeature1 - 
+2019-10-13T19:43:28.9037818+03:00:#4: Search with MaxiMArkets - TestAssembly:WebApplication3.Tests/Feature:SpecFlowFeature1/Scenario:Search+with+MaxiMArkets
+2019-10-13T19:43:28.9037818+03:00:End: Test Suite Dump
+2019-10-13T19:43:28.9336997+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-13T19:43:28.9366910+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-10-13T19:43:28.9366910+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-10-13T19:43:28.9417132+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-13T19:43:28.9417132+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-10-13T19:43:28.9417132+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-10-13T19:43:28.9417132+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-10-13T19:43:28.9436757+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-10-13T19:43:28.9446789+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-13T19:43:28.9506558+03:00:Thread #0: creating new test thread executor for WebApplication3.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-13T19:43:28.9536487+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-13T19:43:28.9546445+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-13T19:43:28.9576390+03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-13T19:43:29.0324373+03:00:Thread#0: Test #4/0 is started on thread #0
+2019-10-13T19:43:29.1960944+03:00:Thread#0:T:-> Loading plugin C:\Users\Julia\source\repos\WebApplication3\WebApplication3.Tests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-10-13T19:43:29.2030769+03:00:Thread#0:T:-> Using default config
+2019-10-13T19:43:29.2678612+03:00:Thread#0:B:Given Launch Chrome
+2019-10-13T19:43:29.4962847+03:00:Thread#0:T:error: The file C:\Users\Julia\Desktopp\chromedriver.exe does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html
+2019-10-13T19:43:29.4982807+03:00:Thread#0:B:And Navigate to fxtrends
+2019-10-13T19:43:29.4982807+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:43:29.4982807+03:00:Thread#0:B:When Enter MaxiMarkets
+2019-10-13T19:43:29.4992442+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:43:29.4992442+03:00:Thread#0:B:And Click on Search Button
+2019-10-13T19:43:29.4992442+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:43:29.4992442+03:00:Thread#0:B:Then Results should be visible and Browser shold close
+2019-10-13T19:43:29.4992442+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:43:29.5481108+03:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-10-13T19:43:29.5491082+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-13T19:43:29.5491082+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-10-13T19:43:29.5491082+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-10-13T19:43:29.5491082+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-13T19:43:29.5491082+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-10-13T19:43:29.5491082+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-10-13T19:43:29.5491082+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-10-13T19:43:29.5491082+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-10-13T19:43:29.5491082+03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-10-13T19:43:29.5670617+03:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 0,5326911 seconds
+2019-10-13T19:43:29.5680589+03:00:Thread#0: Test #4/1 is started on thread #0
+2019-10-13T19:43:29.5690552+03:00:Thread#0:B:Given Launch Chrome
+2019-10-13T19:43:29.5711095+03:00:Thread#0:T:error: The file C:\Users\Julia\Desktopp\chromedriver.exe does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html
+2019-10-13T19:43:29.5720871+03:00:Thread#0:B:And Navigate to fxtrends
+2019-10-13T19:43:29.5720871+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:43:29.5720871+03:00:Thread#0:B:When Enter MaxiMarkets
+2019-10-13T19:43:29.5730459+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:43:29.5730459+03:00:Thread#0:B:And Click on Search Button
+2019-10-13T19:43:29.5730459+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:43:29.5740439+03:00:Thread#0:B:Then Results should be visible and Browser shold close
+2019-10-13T19:43:29.5740439+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:43:29.5750457+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-13T19:43:29.5750457+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-10-13T19:43:29.5750457+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-10-13T19:43:29.5750457+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-13T19:43:29.5750457+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-10-13T19:43:29.5750457+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-10-13T19:43:29.5750457+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-10-13T19:43:29.5750457+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-10-13T19:43:29.5750457+03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-10-13T19:43:29.5760395+03:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 0,0079806 seconds
+2019-10-13T19:43:29.5760395+03:00:Thread#0: Test #4/2 is started on thread #0
+2019-10-13T19:43:29.5770481+03:00:Thread#0:B:Given Launch Chrome
+2019-10-13T19:43:29.5790300+03:00:Thread#0:T:error: The file C:\Users\Julia\Desktopp\chromedriver.exe does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html
+2019-10-13T19:43:29.5790300+03:00:Thread#0:B:And Navigate to fxtrends
+2019-10-13T19:43:29.5790300+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:43:29.5790300+03:00:Thread#0:B:When Enter MaxiMarkets
+2019-10-13T19:43:29.5800268+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:43:29.5800268+03:00:Thread#0:B:And Click on Search Button
+2019-10-13T19:43:29.5800268+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:43:29.5810241+03:00:Thread#0:B:Then Results should be visible and Browser shold close
+2019-10-13T19:43:29.5810241+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:43:29.5820202+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-13T19:43:29.5820202+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-13T19:43:29.5820202+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-10-13T19:43:29.5820202+03:00:Thread#0:Scheduler: No more tests for thread
+2019-10-13T19:43:29.5840508+03:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 0,0080113 seconds
+2019-10-13T19:43:29.6009725+03:00:Appdomain Disposed
+2019-10-13T19:43:29.6029647+03:00:Trying to cancel thread
+2019-10-13T19:43:29.6029647+03:00:Thread cancelled
+2019-10-13T19:43:29.6099481+03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-10-13T19:43:29.6099481+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-13T19:43:29.6099481+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-10-13T19:43:29.6169266+03:00;Thread#13;Info;test run finished
+2019-10-13T19:43:29.6169266+03:00;Thread#13;Info;publishing test results
+2019-10-13T19:43:29.6249054+03:00;Thread#13;Info;test results published
+2019-10-13T19:43:29.6249054+03:00;Thread#13;Info;generating reports
+2019-10-13T19:43:29.7735089+03:00;Thread#13;Info;Starting external report generation process
+2019-10-13T19:43:31.9266161+03:00;Thread#13;Info;Successfully generated reports.
+2019-10-13T19:43:31.9296101+03:00;Thread#13;Info;Successfully generated reports
+2019-10-13T19:43:31.9425737+03:00:Total: 1 (test executions: 3)
+2019-10-13T19:43:31.9455685+03:00:Succeeded: 0
+2019-10-13T19:43:31.9455685+03:00:Ignored: 0
+2019-10-13T19:43:31.9465656+03:00:Pending: 0
+2019-10-13T19:43:31.9465656+03:00:Skipped: 0
+2019-10-13T19:43:31.9475638+03:00:Failed: 1
+2019-10-13T19:43:31.9615271+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-10-13T19:43:31.9615271+03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Julia\source\repos\WebApplication3\TestResults\Unnamed project__2019-10-13T194318.html'
+========== End of log file ==========

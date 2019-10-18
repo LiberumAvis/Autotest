@@ -1,0 +1,77 @@
+﻿2019-10-13T19:33:38.8828882+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-13T19:33:38.8828882+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-13T19:33:38.8828882+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Julia\source\repos\WebApplication3\packages\SpecRun.Runner.3.0.391\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-13T19:33:38.9280075+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Julia\source\repos\WebApplication3\WebApplication3.Tests\bin\Debug\WebApplication3.Tests.dll
+2019-10-13T19:33:38.9290037+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\Julia\source\repos\WebApplication3\TestResults" (default)
+2019-10-13T19:33:38.9290037+03:00;VSTestExecutionThread;Info;Profile: 
+2019-10-13T19:33:38.9589563+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\Julia\source\repos\WebApplication3\TestResults\Unnamed project__2019-10-13T193338.log
+2019-10-13T19:33:38.9708898+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-10-13T19:33:38.9798674+03:00;Thread#13;Info;Checking license
+2019-10-13T19:33:39.0018419+03:00;Thread#13;Info;Evaluation mode: test execution starts in 14 seconds... (this delay is removed in the registered version)
+2019-10-13T19:33:53.0027300+03:00;Thread#13;Info;Evaluation delay finished.
+2019-10-13T19:33:53.0117040+03:00;Thread#13;Info;License check completed
+2019-10-13T19:33:53.0117040+03:00;Thread#13;Info;starting test run
+2019-10-13T19:33:53.1194170+03:00;Thread#13;Info;Discovering target: Default
+2019-10-13T19:33:53.1204145+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\Julia\source\repos\WebApplication3\WebApplication3.Tests\bin\Debug\WebApplication3.Tests.dll
+2019-10-13T19:33:54.7582646+03:00:Appdomain Disposed
+2019-10-13T19:33:54.7582646+03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\Julia\source\repos\WebApplication3\WebApplication3.Tests\bin\Debug\WebApplication3.Tests.dll
+2019-10-13T19:33:54.7592613+03:00:Test Suite Dump
+2019-10-13T19:33:54.7632490+03:00:#0: Unnamed project/ - 
+2019-10-13T19:33:54.7632490+03:00:#1: Default - 
+2019-10-13T19:33:54.7632490+03:00:#2: WebApplication3.Tests - 
+2019-10-13T19:33:54.7632490+03:00:#3: SpecFlowFeature1 - 
+2019-10-13T19:33:54.8280785+03:00:#4: rs - TestAssembly:WebApplication3.Tests/Feature:SpecFlowFeature1/Scenario:rs
+2019-10-13T19:33:54.8280785+03:00:End: Test Suite Dump
+2019-10-13T19:33:54.8699632+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-13T19:33:54.8739536+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-10-13T19:33:54.8739536+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-10-13T19:33:54.8819316+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-13T19:33:54.8819316+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-10-13T19:33:54.8819316+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-10-13T19:33:54.8819316+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-10-13T19:33:54.8849247+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-10-13T19:33:54.8859223+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-13T19:33:54.8909072+03:00:Thread #0: creating new test thread executor for WebApplication3.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-13T19:33:54.8939006+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-13T19:33:54.8948962+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-13T19:33:54.8978897+03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-13T19:33:55.6689055+03:00:Thread#0: Test #4/0 is started on thread #0
+2019-10-13T19:33:56.0957331+03:00:Thread#0:T:-> Loading plugin C:\Users\Julia\source\repos\WebApplication3\WebApplication3.Tests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-10-13T19:33:56.2433377+03:00:Thread#0:T:-> Using default config
+2019-10-13T19:33:56.5545058+03:00:Thread#0:B:Given I have entered 50 into the calculator
+2019-10-13T19:33:57.1404583+03:00:Thread#0:T:pending: SpecFlowFeature1Steps.GivenIHaveEnteredIntoTheCalculator(50)
+2019-10-13T19:33:57.1414539+03:00:Thread#0:B:And I have entere Add two numbed 70 into the calculator
+2019-10-13T19:33:57.1424515+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:33:57.1424515+03:00:Thread#0:B:When I press add
+2019-10-13T19:33:57.1424515+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:33:57.1434496+03:00:Thread#0:B:Then the result should be 120 on the screen
+2019-10-13T19:33:57.1534796+03:00:Thread#0:T:skipped because of previous errors
+2019-10-13T19:33:57.1614017+03:00:Thread#0:T:Pending: One or more step definitions are not implemented yet.
+2019-10-13T19:33:57.1614017+03:00:Thread#0:T:  SpecFlowFeature1Steps.GivenIHaveEnteredIntoTheCalculator(50)
+2019-10-13T19:33:57.2112673+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-13T19:33:57.2112673+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-13T19:33:57.2112673+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-10-13T19:33:57.2112673+03:00:Thread#0:Scheduler: No more tests for thread
+2019-10-13T19:33:57.2262279+03:00:Thread#0: Test #4/0 is finished on thread #0 as Pending within 1,5563252 seconds
+2019-10-13T19:33:57.2471733+03:00:Appdomain Disposed
+2019-10-13T19:33:57.2491665+03:00:Trying to cancel thread
+2019-10-13T19:33:57.2491665+03:00:Thread cancelled
+2019-10-13T19:33:57.2591409+03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-10-13T19:33:57.2591409+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-13T19:33:57.2591409+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-10-13T19:33:57.2621311+03:00;Thread#13;Info;test run finished
+2019-10-13T19:33:57.2621311+03:00;Thread#13;Info;publishing test results
+2019-10-13T19:33:57.3827696+03:00;Thread#13;Info;test results published
+2019-10-13T19:33:57.3837678+03:00;Thread#13;Info;generating reports
+2019-10-13T19:33:57.6111863+03:00;Thread#13;Info;Starting external report generation process
+2019-10-13T19:34:03.0129488+03:00;Thread#13;Info;Successfully generated reports.
+2019-10-13T19:34:03.0219251+03:00;Thread#13;Info;Successfully generated reports
+2019-10-13T19:34:03.0319002+03:00:Total: 1
+2019-10-13T19:34:03.0349274+03:00:Succeeded: 0
+2019-10-13T19:34:03.0359226+03:00:Ignored: 0
+2019-10-13T19:34:03.0369206+03:00:Pending: 1
+2019-10-13T19:34:03.0369206+03:00:Skipped: 0
+2019-10-13T19:34:03.0378823+03:00:Failed: 0
+2019-10-13T19:34:03.0538758+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-10-13T19:34:03.0538758+03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Julia\source\repos\WebApplication3\TestResults\Unnamed project__2019-10-13T193338.html'
+========== End of log file ==========

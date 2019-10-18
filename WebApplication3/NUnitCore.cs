@@ -37,8 +37,8 @@ namespace WebApplication3
         [Test]
         public void Excecute()
         {
-            Class2.EnterText( "s", "hdgshfg", PropetryType.Id);
-            Class2.Click( "searchsubmit", PropetryType.Id);
+            SetSellenium.EnterText( "s", "hdgshfg", PropetryType.Id);
+            SetSellenium.Click( "searchsubmit", PropetryType.Id);
             //IWebElement element = driver.FindElement(By.Id("s"));
             //    element.SendKeys("MaxiMarkets");
           
